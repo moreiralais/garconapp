@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.laismoreira.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Garçonete so de cenoura</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <platform name="android">
+        <preference name="BackgroundColor" value="0xF2F2F2FF" />
+        <icon density="ldpi" src="resources\android\icon\drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="resources\android\icon\drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="resources\android\icon\drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="resources\android\icon\drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="resources\android\icon\drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="resources\android\icon\drawable-xxxhdpi-icon.png" />
+        <splash density="port-ldpi" src="resources\android\splash\drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="resources\android\splash\drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="resources\android\splash\drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="resources\android\splash\drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="resources\android\splash\drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="resources\android\splash\drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
+    <plugin name="cordova-plugin-statusbar" spec="*" />
+    <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="~6.0.1" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
+    <access origin="http://cozinhapp.sergiolopes.org" />
+</widget>
